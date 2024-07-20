@@ -45,13 +45,16 @@ class FeatureBox extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 3),
-            
-            Text(
-              descriptionText,
-              style: const TextStyle(
-              fontFamily: 'Cera Pro',
-              color: Pallete.mainFontColor,
-            ),
+
+            Padding(
+              padding: const EdgeInsets.only(right: 20),
+              child: Text(
+                descriptionText,
+                style: const TextStyle(
+                fontFamily: 'Cera Pro',
+                color: Pallete.mainFontColor,
+              ),
+              ),
             )
           ],
         ),
