@@ -111,6 +111,11 @@ class _HomePageState extends State<HomePage> {
           )
         ],
         ),
+        floatingActionButton: FloatingActionButton(
+          backgroundColor: Pallete.firstSuggestionBoxColor,
+          onPressed: () {},
+          child: const Icon(Icons.mic),
+        ),
     );
   }
 }
